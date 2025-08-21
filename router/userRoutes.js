@@ -7,5 +7,6 @@ const router = e.Router();
 router.route("/register").post(registerUser)
 router.route("/login").post(loginUser)
 router.route("/current").post(ValidToken, currentUser)
+// /api/user/register
 
 export const router1 = router;
