@@ -16,7 +16,7 @@ const Port = process.env.PORT || 5000;
 
 // origin: "http://localhost:5173",
 const corsOption = {
-   origin: "http://localhost:5173",
+   origin: "https://contact-front.netlify.app/",
    methods: "POST,GET,PUT,DELETE",
    credentials: true,
 }
